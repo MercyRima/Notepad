@@ -47,6 +47,7 @@
                 />
 
             <TextView
+                android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/white"
@@ -58,6 +59,8 @@
         </RelativeLayout>
 
         <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/tvNoteText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ViewNote"
@@ -150,6 +153,7 @@
                 android:drawableLeft="@drawable/ic_edit_black_24dp"/>
 
             <Button
+                android:id="@+id/btnDelete"
                 android:layout_marginTop="80dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

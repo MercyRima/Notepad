@@ -42,4 +42,5 @@ public class Note {
     public void setNoteText(String noteText) {
         this.noteText = noteText;
     }
+
 }
